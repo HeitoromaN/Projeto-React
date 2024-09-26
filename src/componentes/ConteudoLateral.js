@@ -1,9 +1,10 @@
 import logo from "../Logo.png"
-<img src={Logo} alt="Logo"></img>
 function ConteudoLateral() {
     return (
         <div className='ConteudoLateral'>
+            <img src={logo} alt='Logo' className='logo' />
             <div>Logo</div>
+
             <div>menu
                 <ul>
                     <li>Home</li>
